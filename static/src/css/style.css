@@ -8,9 +8,19 @@
   font-weight: normal;
   font-style: normal;
   font-display: block;
-  unicode-range: U+0111; /* 'đ' */
 }
 
+@font-face {
+  font-family: 'Tajawal-Regular';
+  src:  url('../fonts/Tajawal-Regular.eot');
+  src:  url('../fonts/Tajawal-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Tajawal-Regular.woff2') format('woff2'),
+    url('../fonts/Tajawal-Regular.woff') format('woff'),
+    url('../fonts/Tajawal-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
 
 [class^="icon-Medium"], [class*="icon-Medium"] {
   /* use !important to prevent issues with browser extensions that change fonts */
@@ -22,8 +32,7 @@
   line-height: 1;
 
   /* Better Font Rendering =========== */
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+ 
 }
 
 .icon-Medium:before {
@@ -31,8 +40,7 @@
 }
 
 /* General font settings */
-html, body {
-  /* Put this font first; due to unicode-range it only affects 'đ' (U+0111). */
+*:not(.fa):not(.oi) {
   font-family:  "oman_currency_symbol",'feather',
                "SF Pro Display", '-apple-system, BlinkMacSystemFont', "Segoe UI", 'Roboto',
                "Helvetica Neue", 'Ubuntu', "Noto Sans", Arial, sans-serif,
@@ -44,7 +52,7 @@ html, body {
   font-family:  "oman_currency_symbol",'feather',
                "SF Pro Display", '-apple-system, BlinkMacSystemFont', "Segoe UI", 'Roboto',
                "Helvetica Neue", 'Ubuntu', "Noto Sans", Arial, sans-serif,
-               "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
+               "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol","Noto Color Emoji" !important;
 }
 
 /* Special class for OMR amount fields */
