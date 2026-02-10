@@ -1,0 +1,76 @@
+@font-face {
+  font-family: 'oman_currency_symbol';
+  src:  url('../fonts/oman_currency_symbol.eot?vif6hj');
+  src:  url('../fonts/oman_currency_symbol.eot?vif6hj#iefix') format('embedded-opentype'),
+    url('../fonts/oman_currency_symbol.ttf?vif6hj') format('truetype'),
+    url('../fonts/oman_currency_symbol.woff?vif6hj') format('woff'),
+    url('../fonts/oman_currency_symbol.svg?vif6hj#oman_currency_symbol') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+@font-face {
+  font-family: 'Tajawal-Regular';
+  src:  url('../fonts/Tajawal-Regular.eot');
+  src:  url('../fonts/Tajawal-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Tajawal-Regular.woff2') format('woff2'),
+    url('../fonts/Tajawal-Regular.woff') format('woff'),
+    url('../fonts/Tajawal-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+[class^="icon-Medium"], [class*="icon-Medium"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'oman_currency_symbol' !important;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+ 
+}
+
+.icon-Medium:before {
+  content: "\111";
+}
+
+/* General font settings */
+*:not(.fa):not(.oi) {
+  font-family:  "oman_currency_symbol",'feather',
+               "SF Pro Display", '-apple-system, BlinkMacSystemFont', "Segoe UI", 'Roboto',
+               "Helvetica Neue", 'Ubuntu', "Noto Sans", Arial, sans-serif,
+               "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
+}
+
+/* Report specific elements */
+.page, .header, .footer {
+  font-family:  "oman_currency_symbol",'feather',
+               "SF Pro Display", '-apple-system, BlinkMacSystemFont', "Segoe UI", 'Roboto',
+               "Helvetica Neue", 'Ubuntu', "Noto Sans", Arial, sans-serif,
+               "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol","Noto Color Emoji" !important;
+}
+
+/* Special class for OMR amount fields */
+.oe_currency_value::before,
+.o_account_report_column_value::before,
+.o_account_report_summary_value::before,
+.o_account_report_line [data-parent-id] .o_account_report_column_value::before {
+  content: '\111';
+  font-family: 'oman_currency_symbol' !important;
+  display: inline-block;
+  margin-right: 0;
+  visibility: hidden;
+  width: 0;
+}
+
+body .o_content .o_account_reports_body .oe_currency_value::before,
+body .o_content .o_account_reports_body .o_account_report_column_value::before,
+body .o_content .o_account_reports_body .o_account_report_summary_value::before,
+body .o_content .o_account_reports_body .o_account_report_line [data-parent-id] .o_account_report_column_value::before {
+  display: none;
+}
