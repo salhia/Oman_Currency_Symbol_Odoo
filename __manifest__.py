@@ -8,20 +8,25 @@ OMR Symbol Font for Odoo
 رمز الريال العماني اودو Odoo
 =======================
 
-This module adds the new Omani Riyal (ر.ع.) symbol to your Odoo system interfaces, including:
+     Credits / Acknowledgment
+        ------------------------
+        - Idea: Al Hussain Al Dhahli
+        - Implementation: Mohamed Elamin
 
-* PDF Reports
-* Point of Sale Interface
-* Invoices
-* All system views
+        This module adds the new Omani Riyal (ر.ع.) symbol to your Odoo system interfaces, including:
 
-After installing this module, copy the symbol đ and paste it in the currency symbol field 
-for the Omani Riyal (OMR) currency in: Accounting > Configuration > Accounting > Currencies.
+        * PDF Reports
+        * Point of Sale Interface
+        * Invoices
+        * All system views
 
-Note: Please ensure there are no other font-family customizations in your system views and invoices 
-that might conflict with this module.
+        After installing this module, copy the symbol đ and paste it in the currency symbol field 
+        for the Omani Riyal (OMR) currency in: Accounting > Configuration > Accounting > Currencies.
+
+        Note: Please ensure there are no other font-family customizations in your system views and invoices 
+        that might conflict with this module.
     """,
-    'author': 'Mohamed elamin',
+    'author': 'Mohamed elamin <moheha2@gmail.com>,Al hussain Al dhahli <a.aldhahli1@squ.edu.om> Sultan Qaboos University',
     'website': 'https://www.linkedin.com/in/mohamed-elamin-00743/',   
     "summary": "OMR New Symbol",
     'license': 'LGPL-3',
