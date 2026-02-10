@@ -5,6 +5,10 @@
         OMR Symbol Font for Odoo
         رمز الريال العماني اودو Odoo
         =======================
+        Credits / Acknowledgment
+        ------------------------
+        - Idea: Al Hussain Al Dhahli
+        - Implementation: Mohamed Elamin
 
         This module adds the new Omani Riyal (ر.ع.) symbol to your Odoo system interfaces, including:
 
@@ -19,7 +23,7 @@
         Note: Please ensure there are no other font-family customizations in your system views and invoices 
         that might conflict with this module.
     """,
-    'author': 'Mohamed elamin',
+    'author': 'Mohamed elamin <moheha2@gmail.com>,Al hussain Al dhahli <a.aldhahli1@squ.edu.om> Sultan Qaboos University',
     'website': 'https://www.linkedin.com/in/mohamed-elamin-00743/',   
     "summary": "OMR New Symbol",
     "license": "OPL-1",
