@@ -7,7 +7,7 @@
         =======================
 
         Credits / Acknowledgment
-        ------------------------
+        ========================
         - Idea: Al Hussain Al Dhahli
         - Implementation: Mohamed Elamin
 
