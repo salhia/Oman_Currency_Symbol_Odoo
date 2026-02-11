@@ -8,7 +8,8 @@ OMR Symbol Font for Odoo
 رمز الريال العماني اودو Odoo
 =======================
         Credits / Acknowledgment
-        ------------------------
+        ========================
+
         - Idea: Al Hussain Al Dhahli
         - Implementation: Mohamed Elamin
 
